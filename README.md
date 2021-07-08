@@ -1,6 +1,5 @@
 <p align="center">
-    ![](imgs/SongGuesser.png)
-    <img src=imgs/SongGuesser.png>
+    <img src=https://github.com/Sgb597/BBDD/blob/master/imgs/SongGuesser.png>
 </p>
 
 # Proyecto Individual
