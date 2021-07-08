@@ -1,4 +1,6 @@
-![](imgs/SongGuesser.png)
+<p align="center">
+    ![](imgs/SongGuesser.png)
+</p>
 
 # Proyecto Individual
 ## Tecnologías de Almacenamiento de datos no Relacionales
