@@ -1,0 +1,167 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 1,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "_id",
+            "count": 1,
+            "values": [
+              "60e351d9577d48ec78c1b410"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 1,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "albumGenre",
+        "path": "albumGenre",
+        "count": 1,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "albumGenre",
+            "count": 1,
+            "values": [
+              "Electronic"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 1,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "albumTitle",
+        "path": "albumTitle",
+        "count": 1,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "albumTitle",
+            "count": 1,
+            "values": [
+              "Homework"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 1,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "artistId",
+        "path": "artistId",
+        "count": 1,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "artistId",
+            "count": 1,
+            "values": [
+              "60e32ae9577d48ec78c1b3ff"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 1,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "artistTitle",
+        "path": "artistTitle",
+        "count": 1,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "artistTitle",
+            "count": 1,
+            "values": [
+              "Daft Punk"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 1,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "songIds",
+        "path": "songIds",
+        "count": 1,
+        "types": [
+          {
+            "name": "Array",
+            "bsonType": "Array",
+            "path": "songIds",
+            "count": 1,
+            "types": [
+              {
+                "name": "ObjectID",
+                "bsonType": "ObjectID",
+                "path": "songIds",
+                "count": 5,
+                "values": [
+                  "60e32b7c577d48ec78c1b404",
+                  "60e34c6e577d48ec78c1b409",
+                  "60e34c99577d48ec78c1b40a",
+                  "60e34ca6577d48ec78c1b40b",
+                  "60e34cb2577d48ec78c1b40c"
+                ],
+                "total_count": 0,
+                "probability": 1,
+                "unique": 5,
+                "has_duplicates": false
+              }
+            ],
+            "lengths": [
+              5
+            ],
+            "total_count": 5,
+            "probability": 1,
+            "average_length": 5
+          }
+        ],
+        "total_count": 1,
+        "type": "Array",
+        "has_duplicates": false,
+        "probability": 1
+      }
+    ],
+    "count": 1
+  }

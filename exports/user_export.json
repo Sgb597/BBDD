@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "60e20fc86b8978d7812b9943"
+  },
+  "firstName": "Sebastian",
+  "lastName1": "García",
+  "lastName2": "Bustamante",
+  "address": {
+    "streetAddress": "Calle Vargas",
+    "city": "Santander",
+    "state": "Cantabria",
+    "country": "Spain"
+  },
+  "email": "sgb597@gmail.com",
+  "phoneNumber": "610856299",
+  "userPlan": "Premium",
+  "signupdate": {
+    "$date": "2019-10-11T22:00:00Z"
+  },
+  "gamesWon": 2
+},{
+  "_id": {
+    "$oid": "60e2183a6b8978d7812b9985"
+  },
+  "firstName": "Jaime",
+  "lastName1": "Cuellar",
+  "lastName2": "Fernandez",
+  "address": {
+    "streetAddress": "Calle San Luis",
+    "city": "Santander",
+    "state": "Cantabria",
+    "country": "Spain"
+  },
+  "email": "jc@gmail.com",
+  "phoneNumber": "610856285",
+  "userPlan": "Free",
+  "signupdate": {
+    "$date": "2020-10-11T22:00:00Z"
+  },
+  "gamesWon": 0
+},{
+  "_id": {
+    "$oid": "60e2186c6b8978d7812b9986"
+  },
+  "firstName": "Daniel",
+  "lastName1": "Colmenares",
+  "lastName2": "Leiva",
+  "address": {
+    "streetAddress": "Calle Los Castros",
+    "city": "Santander",
+    "state": "Cantabria",
+    "country": "Spain"
+  },
+  "email": "danicolms@gmail.com",
+  "phoneNumber": "610895629",
+  "userPlan": "Premium",
+  "signupdate": {
+    "$date": "2019-08-11T22:00:00Z"
+  },
+  "gamesWon": 32
+}]

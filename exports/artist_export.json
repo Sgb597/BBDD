@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "60e212ba6b8978d7812b994c"
+  },
+  "artistTitle": "Julian Casablancas",
+  "genre": "Indie-Rock"
+},{
+  "_id": {
+    "$oid": "60e213ab6b8978d7812b9967"
+  },
+  "artistTitle": "The Strokes",
+  "genre": "Indie-Rock"
+},{
+  "_id": {
+    "$oid": "60e214006b8978d7812b9968"
+  },
+  "artistTitle": "The Voidz",
+  "genre": "Indie-Rock"
+},{
+  "_id": {
+    "$oid": "60e32ae9577d48ec78c1b3ff"
+  },
+  "artistTitle": "Daft Punk",
+  "genre": "Electronic"
+}]

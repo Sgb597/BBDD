@@ -1,0 +1,124 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "_id",
+            "count": 2,
+            "values": [
+              "60e21fe36b8978d7812b99b7",
+              "60e21fca6b8978d7812b99aa"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "idPlayers",
+        "path": "idPlayers",
+        "count": 2,
+        "types": [
+          {
+            "name": "Array",
+            "bsonType": "Array",
+            "path": "idPlayers",
+            "count": 2,
+            "types": [
+              {
+                "name": "ObjectID",
+                "bsonType": "ObjectID",
+                "path": "idPlayers",
+                "count": 6,
+                "values": [
+                  "60e20fc86b8978d7812b9943",
+                  "60e2183a6b8978d7812b9985",
+                  "60e2186c6b8978d7812b9986",
+                  "60e20fc86b8978d7812b9943",
+                  "60e2183a6b8978d7812b9985",
+                  "60e2186c6b8978d7812b9986"
+                ],
+                "total_count": 0,
+                "probability": 1,
+                "unique": 3,
+                "has_duplicates": true
+              }
+            ],
+            "lengths": [
+              3,
+              3
+            ],
+            "total_count": 6,
+            "probability": 1,
+            "average_length": 3
+          }
+        ],
+        "total_count": 2,
+        "type": "Array",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "idWinner",
+        "path": "idWinner",
+        "count": 2,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "idWinner",
+            "count": 2,
+            "values": [
+              "60e2183a6b8978d7812b9985",
+              "60e20fc86b8978d7812b9943"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "playlistId",
+        "path": "playlistId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "playlistId",
+            "count": 2,
+            "values": [
+              "60e217e36b8978d7812b997f",
+              "60e217e36b8978d7812b997f"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectID",
+        "has_duplicates": true,
+        "probability": 1
+      }
+    ],
+    "count": 2
+  }

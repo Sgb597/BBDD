@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "60e213026b8978d7812b995c"
+  },
+  "artistId": {
+    "$oid": "60e41c978f0413f331a18f0f"
+  },
+  "trackTitle": "11th Dimension",
+  "trackGenre": "Indie-Rock",
+  "artistTitle": "Julian Casablancas"
+},{
+  "_id": {
+    "$oid": "60e2143f6b8978d7812b996b"
+  },
+  "artistId": {
+    "$oid": "60e41caa8f0413f331a18f10"
+  },
+  "trackTitle": "Reptilia",
+  "trackGenre": "Indie-Rock",
+  "artistTitle": "The Strokes"
+},{
+  "_id": {
+    "$oid": "60e214506b8978d7812b996c"
+  },
+  "artistId": {
+    "$oid": "60e41cbb8f0413f331a18f11"
+  },
+  "trackTitle": "Meet Me In The Bathroom",
+  "trackGenre": "Indie-Rock",
+  "artistTitle": "The Strokes"
+},{
+  "_id": {
+    "$oid": "60e214626b8978d7812b996d"
+  },
+  "artistId": {
+    "$oid": "60e41cc38f0413f331a18f12"
+  },
+  "trackTitle": "Hard to Explain",
+  "trackGenre": "Indie-Rock",
+  "artistTitle": "The Strokes"
+},{
+  "_id": {
+    "$oid": "60e214696b8978d7812b996e"
+  },
+  "artistId": {
+    "$oid": "60e41cc98f0413f331a18f13"
+  },
+  "trackTitle": "Leave it in my Dreams",
+  "trackGenre": "Indie-Rock",
+  "artistTitle": "The Voidz"
+},{
+  "_id": {
+    "$oid": "60e32b7c577d48ec78c1b404"
+  },
+  "artistId": {
+    "$oid": "60e41cd08f0413f331a18f14"
+  },
+  "trackTitle": "Around the World",
+  "artistTitle": "Daft Punk"
+},{
+  "_id": {
+    "$oid": "60e34c6e577d48ec78c1b409"
+  },
+  "artistId": {
+    "$oid": "60e41cd78f0413f331a18f15"
+  },
+  "trackTitle": "Phoenix",
+  "artistTitle": "Daft Punk"
+},{
+  "_id": {
+    "$oid": "60e34c99577d48ec78c1b40a"
+  },
+  "artistId": {
+    "$oid": "60e41cdd8f0413f331a18f16"
+  },
+  "trackTitle": "Burnin",
+  "artistTitle": "Daft Punk"
+},{
+  "_id": {
+    "$oid": "60e34ca6577d48ec78c1b40b"
+  },
+  "artistId": {
+    "$oid": "60e41ce78f0413f331a18f17"
+  },
+  "trackTitle": "Alive",
+  "artistTitle": "Daft Punk"
+},{
+  "_id": {
+    "$oid": "60e34cb2577d48ec78c1b40c"
+  },
+  "artistId": {
+    "$oid": "60e41cef8f0413f331a18f18"
+  },
+  "trackTitle": "Da Funk",
+  "artistTitle": "Daft Punk"
+}]

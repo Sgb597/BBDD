@@ -1,0 +1,178 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 10,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "_id",
+            "count": 10,
+            "values": [
+              "60e214626b8978d7812b996d",
+              "60e34cb2577d48ec78c1b40c",
+              "60e34c6e577d48ec78c1b409",
+              "60e34c99577d48ec78c1b40a",
+              "60e34ca6577d48ec78c1b40b",
+              "60e214696b8978d7812b996e",
+              "60e213026b8978d7812b995c",
+              "60e32b7c577d48ec78c1b404",
+              "60e2143f6b8978d7812b996b",
+              "60e214506b8978d7812b996c"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 10,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 10,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "artistId",
+        "path": "artistId",
+        "count": 10,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "artistId",
+            "count": 10,
+            "values": [
+              "60e41cc38f0413f331a18f12",
+              "60e41cef8f0413f331a18f18",
+              "60e41cd78f0413f331a18f15",
+              "60e41cdd8f0413f331a18f16",
+              "60e41ce78f0413f331a18f17",
+              "60e41cc98f0413f331a18f13",
+              "60e41c978f0413f331a18f0f",
+              "60e41cd08f0413f331a18f14",
+              "60e41caa8f0413f331a18f10",
+              "60e41cbb8f0413f331a18f11"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 10,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 10,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "artistTitle",
+        "path": "artistTitle",
+        "count": 10,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "artistTitle",
+            "count": 10,
+            "values": [
+              "The Strokes",
+              "Daft Punk",
+              "Daft Punk",
+              "Daft Punk",
+              "Daft Punk",
+              "The Voidz",
+              "Julian Casablancas",
+              "Daft Punk",
+              "The Strokes",
+              "The Strokes"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 4,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 10,
+        "type": "String",
+        "has_duplicates": true,
+        "probability": 1
+      },
+      {
+        "name": "trackGenre",
+        "path": "trackGenre",
+        "count": 5,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "trackGenre",
+            "count": 5,
+            "values": [
+              "Indie-Rock",
+              "Indie-Rock",
+              "Indie-Rock",
+              "Indie-Rock",
+              "Indie-Rock"
+            ],
+            "total_count": 0,
+            "probability": 0.5,
+            "unique": 1,
+            "has_duplicates": true
+          },
+          {
+            "name": "Undefined",
+            "type": "Undefined",
+            "path": "trackGenre",
+            "count": 5,
+            "total_count": 0,
+            "probability": 0.5,
+            "unique": 1,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 10,
+        "type": [
+          "String",
+          "Undefined"
+        ],
+        "has_duplicates": true,
+        "probability": 0.5
+      },
+      {
+        "name": "trackTitle",
+        "path": "trackTitle",
+        "count": 10,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "trackTitle",
+            "count": 10,
+            "values": [
+              "Hard to Explain",
+              "Da Funk",
+              "Phoenix",
+              "Burnin",
+              "Alive",
+              "Leave it in my Dreams",
+              "11th Dimension",
+              "Around the World",
+              "Reptilia",
+              "Meet Me In The Bathroom"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 10,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 10,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      }
+    ],
+    "count": 10
+  }

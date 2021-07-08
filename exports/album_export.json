@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "60e351d9577d48ec78c1b410"
+  },
+  "artistId": {
+    "$oid": "60e32ae9577d48ec78c1b3ff"
+  },
+  "albumTitle": "Homework",
+  "albumGenre": "Electronic",
+  "artistTitle": "Daft Punk",
+  "trackIds": [
+    {
+      "$oid": "60e32b7c577d48ec78c1b404"
+    },
+    {
+      "$oid": "60e34c6e577d48ec78c1b409"
+    },
+    {
+      "$oid": "60e34c99577d48ec78c1b40a"
+    },
+    {
+      "$oid": "60e34ca6577d48ec78c1b40b"
+    },
+    {
+      "$oid": "60e34cb2577d48ec78c1b40c"
+    }
+  ]
+}]

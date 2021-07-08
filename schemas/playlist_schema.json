@@ -1,0 +1,155 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "_id",
+            "count": 2,
+            "values": [
+              "60e359a9577d48ec78c1b43d",
+              "60e217e36b8978d7812b997f"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "playlistDescription",
+        "path": "playlistDescription",
+        "count": 2,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "playlistDescription",
+            "count": 2,
+            "values": [
+              "My favorite songs",
+              "Perfect for when you're meeting up with friends"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "playlistOwnerId",
+        "path": "playlistOwnerId",
+        "count": 2,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "playlistOwnerId",
+            "count": 2,
+            "values": [
+              "60e41d428f0413f331a18f1c",
+              "60e41d3c8f0413f331a18f1b"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "playlistTitle",
+        "path": "playlistTitle",
+        "count": 2,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "playlistTitle",
+            "count": 2,
+            "values": [
+              "Jaime's Favorites",
+              "Julian Casablancas Top Hits"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 2,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "trackIds",
+        "path": "trackIds",
+        "count": 2,
+        "types": [
+          {
+            "name": "Array",
+            "bsonType": "Array",
+            "path": "trackIds",
+            "count": 2,
+            "types": [
+              {
+                "name": "ObjectID",
+                "bsonType": "ObjectID",
+                "path": "trackIds",
+                "count": 12,
+                "values": [
+                  "60e212ba6b8978d7812b994c",
+                  "60e213ab6b8978d7812b9967",
+                  "60e214006b8978d7812b9968",
+                  "60e34ca6577d48ec78c1b40b",
+                  "60e34cb2577d48ec78c1b40c",
+                  "60e32b7c577d48ec78c1b404",
+                  "60e213026b8978d7812b995c",
+                  "60e213026b8978d7812b995c",
+                  "60e2143f6b8978d7812b996b",
+                  "60e214506b8978d7812b996c",
+                  "60e214626b8978d7812b996d",
+                  "60e214696b8978d7812b996e"
+                ],
+                "total_count": 0,
+                "probability": 1,
+                "unique": 11,
+                "has_duplicates": true
+              }
+            ],
+            "lengths": [
+              6,
+              6
+            ],
+            "total_count": 12,
+            "probability": 1,
+            "average_length": 6
+          }
+        ],
+        "total_count": 2,
+        "type": "Array",
+        "has_duplicates": false,
+        "probability": 1
+      }
+    ],
+    "count": 2
+  }

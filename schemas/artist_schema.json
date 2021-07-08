@@ -1,0 +1,86 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 4,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "_id",
+            "count": 4,
+            "values": [
+              "60e32ae9577d48ec78c1b3ff",
+              "60e212ba6b8978d7812b994c",
+              "60e213ab6b8978d7812b9967",
+              "60e214006b8978d7812b9968"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 4,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 4,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "artistTitle",
+        "path": "artistTitle",
+        "count": 4,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "artistTitle",
+            "count": 4,
+            "values": [
+              "Daft Punk",
+              "Julian Casablancas",
+              "The Strokes",
+              "The Voidz"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 4,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 4,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "genre",
+        "path": "genre",
+        "count": 4,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "genre",
+            "count": 4,
+            "values": [
+              "Electronic",
+              "Indie-Rock",
+              "Indie-Rock",
+              "Indie-Rock"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 2,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 4,
+        "type": "String",
+        "has_duplicates": true,
+        "probability": 1
+      }
+    ],
+    "count": 4
+  }

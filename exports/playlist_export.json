@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "60e217e36b8978d7812b997f"
+  },
+  "playlistOwnerId": {
+    "$oid": "60e41d3c8f0413f331a18f1b"
+  },
+  "playlistTitle": "Julian Casablancas Top Hits",
+  "playlistDescription": "Perfect for when you're meeting up with friends",
+  "trackIds": [
+    {
+      "$oid": "60e213026b8978d7812b995c"
+    },
+    {
+      "$oid": "60e213026b8978d7812b995c"
+    },
+    {
+      "$oid": "60e2143f6b8978d7812b996b"
+    },
+    {
+      "$oid": "60e214506b8978d7812b996c"
+    },
+    {
+      "$oid": "60e214626b8978d7812b996d"
+    },
+    {
+      "$oid": "60e214696b8978d7812b996e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60e359a9577d48ec78c1b43d"
+  },
+  "playlistOwnerId": {
+    "$oid": "60e41d428f0413f331a18f1c"
+  },
+  "playlistTitle": "Jaime's Favorites",
+  "playlistDescription": "My favorite songs",
+  "trackIds": [
+    {
+      "$oid": "60e212ba6b8978d7812b994c"
+    },
+    {
+      "$oid": "60e213ab6b8978d7812b9967"
+    },
+    {
+      "$oid": "60e214006b8978d7812b9968"
+    },
+    {
+      "$oid": "60e34ca6577d48ec78c1b40b"
+    },
+    {
+      "$oid": "60e34cb2577d48ec78c1b40c"
+    },
+    {
+      "$oid": "60e32b7c577d48ec78c1b404"
+    }
+  ]
+}]
