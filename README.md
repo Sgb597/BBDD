@@ -86,7 +86,7 @@ Para la base de datos se han creado 6 colecciones distintas para almacenar y mos
 Las colecciones y el modelo de los documentos y con sus campos se pueden ver fácilmente con el siguiente diagrama.
 
 <p align="center">
-    <img width="100" height="100" src=https://github.com/Sgb597/BBDD/blob/master/imgs/diagram.png>
+    <img width="400" height="400" src=https://github.com/Sgb597/BBDD/blob/master/imgs/diagram.png>
 </p>
 
 Como se puede ver en el diagrama se han implementado el uso de índices en la base de datos. Los índices se han implementado debido a las consultas que se harían desde el front-end. Los tres campos por los cuales más se buscaría son: 
