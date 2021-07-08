@@ -118,7 +118,13 @@ Para iniciar la práctica se han utilizado los comandos básicos para configurar
 `show collections nos muestra las colecciones acutalmente disponibles en la base de datos que estamos usando.`
 
 ## CRUD	– Create	(Inserts) 
-Para la creación de las colecciones se ha utilizado herramientas que revisan y ayudan a crear documentos con los campos requeridos. Para esto se ha usado JSONLint (https://jsonlint.com/) para verificar que los JSON escritos son correctos y adicionalmente se ha utilizado JSONSchema (https://www.jsonschema.net/) para crear los schemas de mi base de datos. Se ha utilizado este sitio web ya que permite especificar un schema para la base de datos a base de JSON con el fin de 
+Para la creación de las colecciones se ha utilizado herramientas que revisan y ayudan a crear documentos con los campos requeridos. Para esto se ha usado JSONLint (https://jsonlint.com/) para verificar que los JSON escritos son correctos y adicionalmente se ha utilizado JSONSchema (https://www.jsonschema.net/) para crear los schemas de mi base de datos. Se ha utilizado este sitio web ya que permite especificar un schema para la base de datos a base de JSON con el fin de tener control sobre los datos que se insertan. Esto se debe a que en varios campos se requiere un ID de algún recurso en específico para formar relaciones. Como en el caso de las playlists que tienen un array de ID's de tracks (canciones) para relacionar las canciones con las playlists en las que están.
+
+<p align="center">
+    <img src=https://github.com/Sgb597/BBDD/blob/master/imgs/playlist_example.png>
+</p>
+
+En la carpeta `schemas` se incluyen todos los schemas utilizados para el desarrollo de este proyecto.
 
 ## CRUD – Read	(Queries) 
 
@@ -128,9 +134,21 @@ Para la creación de las colecciones se ha utilizado herramientas que revisan y 
 
 `db.track.find({trackTitle: "11th Dimension"})`
 
+`db.album.find({trackIds: ObjectId("60e32b7c577d48ec78c1b404")})`
+
+`db.user.find({gamesWon: {$gte: 1}})`
+
 ## CRUD	– Update	(Updates) 
 
+`db.user.updateOne( { _id: ObjectId("60e20fc86b8978d7812b9943") }, {$set: {"gamesWon": 100}})`
+
+`db.playlist.updateOne( { _id: ObjectId("60e359a9577d48ec78c1b43d") }, {$set: {"playlistDescription": "Kind of alright music"}})`
+
 ## CRUD	– Delete	(Remove)
+
+`db.track.remove({_id: ObjectId("60e756421ba7a0815bcf50ae")})`
+
+`db.playlist.update({},{$pull:{trackIds:ObjectId("60e213ab6b8978d7812b9967")}},{multi:true});`
 
 ## MongoDB Atlas
 MongoDB Atlas es una base de datos en la nube totalmente administrada desarrollada por las mismas personas que construyen MongoDB. Atlas se encarga de toda la complejidad de implementar, administrar y sanar sus implementaciones en el proveedor de servicios en la nube de su elección (AWS, Azure y GCP). 
