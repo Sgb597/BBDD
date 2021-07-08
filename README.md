@@ -1,5 +1,6 @@
 <p align="center">
     ![](imgs/SongGuesser.png)
+    <img src=imgs/SongGuesser.png>
 </p>
 
 # Proyecto Individual
