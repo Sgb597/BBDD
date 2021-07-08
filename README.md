@@ -68,7 +68,10 @@ Esta aplicación empezó como un proyecto para familiarizarse con NodeJS para la
 - Angular: Angular es un framework open source para el front-end desarrollado por Google.
 - MongoDB: La base de datos NoSQL.
 
-![](https://th.bing.com/th/id/R.8e37fdda5b3d836fa65522272eef9b34?rik=tkOEu4ekZGl4IA&riu=http%3a%2f%2feluminoustechnologies.com%2fblog%2fwp-content%2fuploads%2f2017%2f01%2f7-Features-of-MEAN-Stack_785.png&ehk=To3u9ZIzyKvNhDrmbrOJIrI%2bT40w7z66FIYb4dbxCDI%3d&risl=&pid=ImgRaw)
+<p align="center">
+    <img src=https://th.bing.com/th/id/R.8e37fdda5b3d836fa65522272eef9b34?rik=tkOEu4ekZGl4IA&riu=http%3a%2f%2feluminoustechnologies.com%2fblog%2fwp-content%2fuploads%2f2017%2f01%2f7-Features-of-MEAN-Stack_785.png&ehk=To3u9ZIzyKvNhDrmbrOJIrI%2bT40w7z66FIYb4dbxCDI%3d&risl=&pid=ImgRaw>
+</p>
+
 
 ## Diseño de la Base de Datos
 Para la base de datos se han creado 6 colecciones distintas para almacenar y mostrar la información necesaria. Los nombres de las seis colecciones son:
@@ -82,7 +85,9 @@ Para la base de datos se han creado 6 colecciones distintas para almacenar y mos
 
 Las colecciones y el modelo de los documentos y con sus campos se pueden ver fácilmente con el siguiente diagrama.
 
-![](imgs/diagram.png)
+<p align="center">
+    <img src=https://github.com/Sgb597/BBDD/blob/master/imgs/diagram.png>
+</p>
 
 Como se puede ver en el diagrama se han implementado el uso de índices en la base de datos. Los índices se han implementado debido a las consultas que se harían desde el front-end. Los tres campos por los cuales más se buscaría son: 
 
@@ -95,7 +100,10 @@ Los índices implementan una estructura de datos para poder agilizar y optimizar
 ## Creación de Base de Datos y Sentencias
 Para la creación de la base de datos se ha utilizado el software proporcionado por MongoDB llamado Compass. Este software permite la conectarse a bases de datos locales y remotas para poder gestionarlas a través de una interfaz gráfica intuitiva. Adicionalmente, se proporciona una consola desde la cual se pueden realizar las consultas de una manera cómoda al poder ver los datos también con la interfaz. 
 
-![](imgs/compass1.png)
+<p align="center">
+    <img src=https://github.com/Sgb597/BBDD/blob/master/imgs/compass1.png>
+</p>
+
 
 Para iniciar la práctica se han utilizado los comandos básicos para configurar el entorno de trabajo:
 
@@ -129,12 +137,14 @@ MongoDB Atlas es una base de datos en la nube totalmente administrada desarrolla
 
 MongoDB Atlas tiene un free tier para poder realizar pruebas y familiarizarse con el entorno DBaaS (Database as a Service) que ellos proporcionan. Este servicio no solo facilita el despliegue en la nube de una base de datos, sino que proporciona al usuario con servicios de métricas y gráficos que permiten visualizar y entender mejor los datos almacenados y también el rendimiento del sistema. Por ejemplo, el servicio de Atlas permite monitorizar el rendimiento de nuestra base de datos con el uso de dashboards. 
 
-![](imgs/atlas_metrics.png)
-
+<p align="center">
+    <img src=https://github.com/Sgb597/BBDD/blob/master/imgs/atlas_metrics.png>
+</p>
 
 Adicionalmente nos permite visualizar cómo se comportan nuestros datos de una manera visual con el uso de gráficos que fácilmente se añaden a un dashboard inicial como en el siguiente ejemplo donde se muestra como en los usuarios suele verse una tendencia en la cual los usuarios que son Premium (pagan suscripción a Spotify) suelen ganar más juegos.
 
-
-![](imgs/atlas_charts.png)
+<p align="center">
+    <img src=https://github.com/Sgb597/BBDD/blob/master/imgs/atlas_charts.png>
+</p>
 
 En el caso de este proyecto, se ha desplegado la base de datos en MongoDB Atlas usando el free tier que proporcionan para que los usuarios aprendan el entorno. Esto se ha facilitado debido a que Atlas es capaz de leer ficheros JSON para crear colecciones y documentos. Al utilizar el software MongoDB Compass para la creación y modificación de la base de datos SongGuesser has sido fácil el exportar todo el contenido como ficheros JSON para que Atlas lea y cree datos a base de los ficheros JSON siguiendo el schema que se tenía en los datos.
