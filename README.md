@@ -76,7 +76,7 @@ Esta aplicación empezó como un proyecto para familiarizarse con NodeJS para la
 ## Diseño de la Base de Datos
 Para la base de datos se han creado 6 colecciones distintas para almacenar y mostrar la información necesaria. Los nombres de las seis colecciones son:
 
-1. User: usuario que utiliza nuestra aplicación para juagr.
+1. User: usuario que utiliza nuestra aplicación para jugar.
 2. Artist: Persona que publica su música a Spotify.
 3. Track: Una canción
 4. Album: Conjunto de canciones publicada por el artista.
