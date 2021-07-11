@@ -83,7 +83,7 @@ Para la base de datos se han creado 6 colecciones distintas para almacenar y mos
 5. Playlist: Conjunto de canciones puestas en una lista de reproducción pro un usuario de Spotify. 
 6. Match: Una partida en la cual participan los usuarios registrados.
 
-Las colecciones y el modelo de los documentos y con sus campos se pueden ver fácilmente con el siguiente diagrama.
+El diagrama conceptual que recoge el problema de información a gestionar se recoge en el siguiente diagrama UML.
 
 <p align="center">
     <img width="965" height="763" src=https://github.com/Sgb597/BBDD/blob/master/imgs/diagram.png>
@@ -96,6 +96,8 @@ Como se puede ver en el diagrama se han implementado el uso de índices en la ba
 3. El nombre de una playlist
 
 Los índices implementan una estructura de datos para poder agilizar y optimizar las busquedas y debido a que la aplicación estaría constantemente haciendo uso de la operación `find` con los campos previamente descritos.
+
+Para una visualización gráfica de la estructura y relaciones de los ficheros JSON que se han diseñado para la base de datos se ha incluido el directorio `graphical_relationships`.
 
 ## Creación de Base de Datos y Sentencias
 Para la creación de la base de datos se ha utilizado el software proporcionado por MongoDB llamado Compass. Este software permite la conectarse a bases de datos locales y remotas para poder gestionarlas a través de una interfaz gráfica intuitiva. Adicionalmente, se proporciona una consola desde la cual se pueden realizar las consultas de una manera cómoda al poder ver los datos también con la interfaz. 
